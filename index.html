@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item-on-qr header__navbar-item-separate">
+                            Vào cửa hàng trên ứng dụng 2KSD-Milk Shop
+                            <div class="header__qr">
+                                <img src="/assets/img/qrcode.png" alt="QR Code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/chplay.png" alt="Google Play" class="header_qr_dowload-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/appstore.png" alt="App Store" class="header_qr_dowload-img">
+                                
+                                    </a>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-pointer">Kết nối</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--Shownotify">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-solid fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--view">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/sua-vnmilk.png" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Sữa vinamilk chính hãng</span>
+                                                <span class="header__notify-description">Mô tả Sữa vinamilk chính hãng</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--view">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/sua-vnmilk.png" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Sữa vinamilk chính hãng</span>
+                                                <span class="header__notify-description">Mô tả Sữa vinamilk chính hãng</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/sua-vnmilk.png" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Sữa vinamilk chính hãng</span>
+                                                <span class="header__notify-description">Mô tả Sữa vinamilk chính hãng</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/sua-vnmilk.png" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Sữa vinamilk chính hãng</span>
+                                                <span class="header__notify-description">Mô tả Sữa vinamilk chính hãng</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify--show-all">
+                                    <a href="" class="header__notify--show-all-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link"><i class="header__navbar-icon fa-solid fa-circle-info"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item-separate">Đăng kí</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li> -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="./assets/img/avatar-cute-meo-con.jpg" alt="" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">Kiệt Lê</span>
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Địa chỉ của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đơn mua</a>
+                                </li>
+                                <li class="header__navbar-user-item header__navbar-user-item-separate">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <a href="/" class="header__logo-link">
+                            <img src="./assets/img/8483724.png" alt="" class="header__logo-img">
+                        </a>
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Tìm kiếm sữa của bạn tại đây">
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Sữa vinamilk</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Sữa bột</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">Trong Shop</span>
+                            <i class="header__search-select-icon fa-solid fa-chevron-down"></i>
+                            <ul class="header__search-options">
+                                <li class="header__search-options-item header__search-options-item--active">
+                                    <span>Trong shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                                <li class="header__search-options-item">
+                                    <span>Ngoài shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <div class="header__cart">
+                        <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                        <span class="header__cart-notice">3</span>
+                        <!--Khi không có sp add class này vào sau class dưới:header__cart-list--nocart-->
+                        <div class="header__cart-list">
+                            <img src="./assets/img/cart.png" alt="" class="header__cart-nocart-img">
+                            <span class="header__cart-list--nocart-msg">
+                                Chưa có sản phẩm nào trong giỏ hàng bạn ơi!!!
+                            </span>
+                            <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                            <ul class="header__cart-list-item">
+                                <!--ITEM GIO HANG-->
+                                <li class="header__cart-item">
+                                    <img src="./assets/img/vinamilk.jpg" alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-head">
+                                            <h5 class="header__cart-item-name">Sữa tươi tiệt trùng  Vinamilk</h5>
+                                            <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">30.000đ</span>
+                                                <span class="header__cart-item-daunhan">x</span>
+                                                <span class="header__cart-item-qnt">2</span>
+                                            </div>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">
+                                                Phân loại hàng:Vinamilk
+                                            </span>
+                                            <span class="header__cart-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__cart-item">
+                                    <img src="./assets/img/vinamilk.jpg" alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-head">
+                                            <h5 class="header__cart-item-name">Sữa tươi tiệt trùng  Vinamilk</h5>
+                                            <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">30.000đ</span>
+                                                <span class="header__cart-item-daunhan">x</span>
+                                                <span class="header__cart-item-qnt">2</span>
+                                            </div>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">
+                                                Phân loại hàng:Vinamilk
+                                            </span>
+                                            <span class="header__cart-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__cart-item">
+                                    <img src="./assets/img/vinamilk.jpg" alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-head">
+                                            <h5 class="header__cart-item-name">Sữa tươi tiệt trùng  Vinamilk</h5>
+                                            <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">30.000đ</span>
+                                                <span class="header__cart-item-daunhan">x</span>
+                                                <span class="header__cart-item-qnt">2</span>
+                                            </div>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">
+                                                Phân loại hàng:Vinamilk
+                                            </span>
+                                            <span class="header__cart-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__cart-item">
+                                    <img src="./assets/img/vinamilk.jpg" alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-head">
+                                            <h5 class="header__cart-item-name">Sữa tươi tiệt trùng Vinamilk 100% có đường - Thùng 48 hộp x 180ml</h5>
+                                            <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">30.000đ</span>
+                                                <span class="header__cart-item-daunhan">x</span>
+                                                <span class="header__cart-item-qnt">2</span>
+                                            </div>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">
+                                                Phân loại hàng:Vinamilk
+                                            </span>
+                                            <span class="header__cart-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__cart-item">
+                                    <img src="./assets/img/vinamilk.jpg" alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-head">
+                                            <h5 class="header__cart-item-name">Sữa tươi tiệt trùng  Vinamilk</h5>
+                                            <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">30.000đ</span>
+                                                <span class="header__cart-item-daunhan">x</span>
+                                                <span class="header__cart-item-qnt">2</span>
+                                            </div>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">
+                                                Phân loại hàng:Vinamilk
+                                            </span>
+                                            <span class="header__cart-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__cart-item">
+                                    <img src="./assets/img/vinamilk.jpg" alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-head">
+                                            <h5 class="header__cart-item-name">Sữa tươi tiệt trùng  Vinamilk</h5>
+                                            <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">30.000đ</span>
+                                                <span class="header__cart-item-daunhan">x</span>
+                                                <span class="header__cart-item-qnt">2</span>
+                                            </div>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">
+                                                Phân loại hàng:Vinamilk
+                                            </span>
+                                            <span class="header__cart-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <a href="#" class="header__cart-view btn btn--primary">Xem giỏ hàng</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="app_container">
+            <div class="grid">
+                <div class="grid__row app_content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fa-solid fa-list"></i>
+                                Danh Mục
+                            </h3>
+                            <div class="category_list">
+                                <li class="category-item category-item-active">
+                                    <a href="#" class="category-item__link">Tất cả sản phẩm</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Sữa cho mẹ và bé</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Sữa cho người cao tuổi</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Sữa Chua Ăn</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Sữa Tươi Và Sữa Dinh Dưỡng</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Sữa bột các loại</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Sữa Đặc</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Sữa Thực Vật</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Sữa trái cây</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Sữa tươi thanh trùng</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Sữa tươi tiệt trùng</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Kem</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Nước giải khát</a>
+                                </li>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn">Phổ biến</button>
+                            <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-input__icon fa-solid fa-chevron-down"></i>
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Từ Thấp đến Cao</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Từ Cao đến Thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>/14
+                                    
+                                </span>
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disable">
+                                        <i class="home-filter__page-icon fa-solid fa-chevron-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-product">
+                            <div class="grid__row">
+                                <!-- product item -->
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://product.hstatic.net/1000074072/product/slide67_1f62f5a4e4e948e8a533bcb3f3cdd641_master.png);"></div>
+                                        <h4 class="home-product-item__name">Thùng 48 hộp sữa tươi tiệt trùng vinamilk 100% có đường 110ml</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">200.000đ</span>
+                                            <span class="home-product-item__price-current">199.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                     <!-- Để thay đổi trái tim thành màu đỏ thì thêm class "home-product-item__like--liked" vào sau class dưới còn
+                    để tắt thì bỏ class đó đi====>backend xử lí  -->
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Vinamilk</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                           <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://product.hstatic.net/1000074072/product/slide67_1f62f5a4e4e948e8a533bcb3f3cdd641_master.png);"></div>
+                                        <h4 class="home-product-item__name">Thùng 48 hộp sữa tươi tiệt trùng vinamilk 100% có đường 110ml</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">200.000đ</span>
+                                            <span class="home-product-item__price-current">199.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                     <!-- Để thay đổi trái tim thành màu đỏ thì thêm class "home-product-item__like--liked" vào sau class dưới còn
+                    để tắt thì bỏ class đó đi====>backend xử lí  -->
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Vinamilk</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                           <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://product.hstatic.net/1000074072/product/slide67_1f62f5a4e4e948e8a533bcb3f3cdd641_master.png);"></div>
+                                        <h4 class="home-product-item__name">Thùng 48 hộp sữa tươi tiệt trùng vinamilk 100% có đường 110ml</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">200.000đ</span>
+                                            <span class="home-product-item__price-current">199.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                     <!-- Để thay đổi trái tim thành màu đỏ thì thêm class "home-product-item__like--liked" vào sau class dưới còn
+                    để tắt thì bỏ class đó đi====>backend xử lí  -->
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Vinamilk</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                           <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://product.hstatic.net/1000074072/product/slide67_1f62f5a4e4e948e8a533bcb3f3cdd641_master.png);"></div>
+                                        <h4 class="home-product-item__name">Thùng 48 hộp sữa tươi tiệt trùng vinamilk 100% có đường 110ml</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">200.000đ</span>
+                                            <span class="home-product-item__price-current">199.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                     <!-- Để thay đổi trái tim thành màu đỏ thì thêm class "home-product-item__like--liked" vào sau class dưới còn
+                    để tắt thì bỏ class đó đi====>backend xử lí  -->
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Vinamilk</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                           <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://product.hstatic.net/1000074072/product/slide67_1f62f5a4e4e948e8a533bcb3f3cdd641_master.png);"></div>
+                                        <h4 class="home-product-item__name">Thùng 48 hộp sữa tươi tiệt trùng vinamilk 100% có đường 110ml</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">200.000đ</span>
+                                            <span class="home-product-item__price-current">199.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                     <!-- Để thay đổi trái tim thành màu đỏ thì thêm class "home-product-item__like--liked" vào sau class dưới còn
+                    để tắt thì bỏ class đó đi====>backend xử lí  -->
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Vinamilk</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                           <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://product.hstatic.net/1000074072/product/slide67_1f62f5a4e4e948e8a533bcb3f3cdd641_master.png);"></div>
+                                        <h4 class="home-product-item__name">Thùng 48 hộp sữa tươi tiệt trùng vinamilk 100% có đường 110ml</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">200.000đ</span>
+                                            <span class="home-product-item__price-current">199.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                     <!-- Để thay đổi trái tim thành màu đỏ thì thêm class "home-product-item__like--liked" vào sau class dưới còn
+                    để tắt thì bỏ class đó đi====>backend xử lí  -->
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Vinamilk</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                           <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://product.hstatic.net/1000074072/product/slide67_1f62f5a4e4e948e8a533bcb3f3cdd641_master.png);"></div>
+                                        <h4 class="home-product-item__name">Thùng 48 hộp sữa tươi tiệt trùng vinamilk 100% có đường 110ml</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">200.000đ</span>
+                                            <span class="home-product-item__price-current">199.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                     <!-- Để thay đổi trái tim thành màu đỏ thì thêm class "home-product-item__like--liked" vào sau class dưới còn
+                    để tắt thì bỏ class đó đi====>backend xử lí  -->
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Vinamilk</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                           <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://product.hstatic.net/1000074072/product/slide67_1f62f5a4e4e948e8a533bcb3f3cdd641_master.png);"></div>
+                                        <h4 class="home-product-item__name">Thùng 48 hộp sữa tươi tiệt trùng vinamilk 100% có đường 110ml</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">200.000đ</span>
+                                            <span class="home-product-item__price-current">199.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                     <!-- Để thay đổi trái tim thành màu đỏ thì thêm class "home-product-item__like--liked" vào sau class dưới còn
+                    để tắt thì bỏ class đó đi====>backend xử lí  -->
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Vinamilk</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                           <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://product.hstatic.net/1000074072/product/slide67_1f62f5a4e4e948e8a533bcb3f3cdd641_master.png);"></div>
+                                        <h4 class="home-product-item__name">Thùng 48 hộp sữa tươi tiệt trùng vinamilk 100% có đường 110ml</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">200.000đ</span>
+                                            <span class="home-product-item__price-current">199.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                     <!-- Để thay đổi trái tim thành màu đỏ thì thêm class "home-product-item__like--liked" vào sau class dưới còn
+                    để tắt thì bỏ class đó đi====>backend xử lí  -->
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Vinamilk</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                           <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://product.hstatic.net/1000074072/product/slide67_1f62f5a4e4e948e8a533bcb3f3cdd641_master.png);"></div>
+                                        <h4 class="home-product-item__name">Thùng 48 hộp sữa tươi tiệt trùng vinamilk 100% có đường 110ml</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">200.000đ</span>
+                                            <span class="home-product-item__price-current">199.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                     <!-- Để thay đổi trái tim thành màu đỏ thì thêm class "home-product-item__like--liked" vào sau class dưới còn
+                    để tắt thì bỏ class đó đi====>backend xử lí  -->
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star_gold fa-solid fa-star"></i>
+                                                <i class=" fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Vinamilk</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                           <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+
+        </footer>
+    </div>
+     <!-- <div class="modal">
+        <div class="modal__overlay">
+
+        </div>
+        <div class="modal__body">  -->
+                 
+                <!--DANGKY FORM-->
+                 <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">ĐĂNG KÝ</h3>
+                        <span class="auth-form__switch-btn">ĐĂNG NHẬP</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="repassword" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Đồng ý với <a href="" class="auth-form__text-link">chính sách bảo mật</a> &
+                                <a href="" class="auth-form__text-link">điều khoản dịch vụ</a> của chúng tôi
+                        </p>
+                    </div>
+                        <div class="auth-form__controls">
+                            <button class="btn auth-form__controls-back btn-nomal">TRỞ LẠI</button>
+                            <button class="btn btn--primary ">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+                    <div class="auth-form__social">
+                        <a href="" class="auth-form__social--facebook btn btn-small btn--with-icon">
+                            <i class="auth-form__social-icon fa-brands fa-square-facebook"></i>
+                            <span class="auth-form__social-title">
+                                Kết nối với Facebook
+                            </span>
+                        </a>
+                        <a href="" class="auth-form__social--google btn btn-small btn--with-icon">
+                            <i class="auth-form__social-icon fa-brands fa-google"></i>
+                            <span class="auth-form__social-title">
+                                Kết nối với Google
+                            </span>
+                            
+                        </a>
+                    </div>
+                </div> -->
+
+                <!--LOGIN FORM-->
+                 <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">ĐĂNG NHẬP</h3>
+                        <span class="auth-form__switch-btn">ĐĂNG KÝ</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                        </div>
+                    </div>
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link auth-form__help-fogot">Quên mật khẩu</a>
+                            <span class="auth-form__help-gachgiua"></span>
+                            <a href="" class="auth-form__help-link">Cần Trợ Giúp</a>
+                        </div>
+                    </div>
+                        <div class="auth-form__controls">
+                            <button class="btn auth-form__controls-back btn-nomal">TRỞ LẠI</button>
+                            <button class="btn btn--primary ">ĐĂNG NHẬP</button>
+                        </div>
+                    </div>
+                    <div class="auth-form__social">
+                        <a href="" class="auth-form__social--facebook btn btn-small btn--with-icon">
+                            <i class="auth-form__social-icon fa-brands fa-square-facebook"></i>
+                            <span class="auth-form__social-title">
+                                Đăng nhập với Facebook
+                            </span>
+                        </a>
+                        <a href="" class="auth-form__social--google btn btn-small btn--with-icon">
+                            <i class="auth-form__social-icon fa-brands fa-google"></i>
+                            <span class="auth-form__social-title">
+                                Đăng nhập với Google
+                            </span>
+                            
+                        </a>
+                    </div>
+                </div> -->
+        </div>
+    </div>
+</body>
+</html>
